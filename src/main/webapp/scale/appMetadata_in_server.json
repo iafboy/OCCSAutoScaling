@@ -1,0 +1,21 @@
+{
+	"appInfo":{
+		"androidApp":{
+			"changeLog":"",
+			"downloadURL":"http://127.0.0.1:8080/scale/app.apk",
+			"version":"1.0.5"
+		},
+		"iosApp":{
+			"changeLog":"",
+			"downloadURL":"http://127.0.0.1:8080/scale/app.ipa",
+			"version":"1.0.5"
+		}
+	},
+	"resourceInfo":{
+		"appVersion":"",
+		"downloadURL":"http://127.0.0.1:8080/scale/www.zip",
+		"indexURL":"/Singleton/index.w",
+		"mode":"1",
+		"version":"v-1.0.5.0-zh_CN-"
+	}
+}

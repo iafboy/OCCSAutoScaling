@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<div xid="window" class="window cnyuaMv" component="$model/UI2/system/components/justep/window/window" design="device:pc" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cnyuaMv" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/bootstrap/form/form,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/windowReceiver/windowReceiver,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onLoad:modelLoad" __cid="cnyuaMv" class="cnyuaMv"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pc3uI3Ij-iosstatusbar cnyuaMv" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cnyuaMv"> 
+    <div class="x-panel-top cnyuaMv" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cnyuaMv">
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cnyuaMv" xid="titleBar1" style="background-color:#F70000;color:#FFFFFF;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&#34;title&#34;:&#34;弹性伸缩配置&#34;}" __cid="cnyuaMv"> 
+        <div class="x-titlebar-left cnyuaMv" xid="left1" __cid="cnyuaMv">
+          <img src="@justepContextPath@/Singleton/images/logo.png" alt="" xid="image1" style="width:180px;" __cid="cnyuaMv" class="cnyuaMv">
+        </div>  
+        <div class="x-titlebar-title cnyuaMv" xid="title1" __cid="cnyuaMv">弹性伸缩配置</div>  
+        <div class="x-titlebar-right  cnyuaMv" xid="right1" __cid="cnyuaMv">
+          <div class="empty cnyuaMv" __cid="cnyuaMv"></div>
+        </div>
+      </div>
+    </div>  
+    <div class="x-panel-content cnyuaMv" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cnyuaMv">
+      <div class="form-horizontal container-fluid cnyuaMv" component="$model/UI2/system/components/bootstrap/form/form" xid="form1" data-bind="component:{name:'$model/UI2/system/components/bootstrap/form/form'}" __cid="cnyuaMv">
+        <div class="form-group cnyuaMv" xid="formGroup2" __cid="cnyuaMv"> 
+          <div class="col-sm-2 cnyuaMv" xid="col5" __cid="cnyuaMv"></div>  
+          <div class="col-sm-4 cnyuaMv" xid="col6" __cid="cnyuaMv"></div>  
+          <div class="col-sm-2 cnyuaMv" xid="col7" __cid="cnyuaMv"></div>  
+          <div class="col-sm-4 cnyuaMv" xid="col8" __cid="cnyuaMv"></div>
+        </div>
+        <div class="form-group cnyuaMv" xid="formGroup1" __cid="cnyuaMv"> 
+          <div class="col-sm-2 cnyuaMv" xid="col1" __cid="cnyuaMv">
+            <label class="control-label cnyuaMv" xid="controlLabel1" __cid="cnyuaMv">DeploymentID</label>
+          </div>  
+          <div class="col-sm-4 cnyuaMv" xid="col2" __cid="cnyuaMv">
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cnyuaMv" xid="mainpath" data-bind="component:{ref:$model.sd.ref(&#34;col0&#34;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&#34;readonly&#34;:true}" __cid="cnyuaMv">
+          </div>  
+          <div class="col-sm-2 cnyuaMv" xid="col3" __cid="cnyuaMv"></div>  
+          <div class="col-sm-4 cnyuaMv" xid="col4" __cid="cnyuaMv"></div>
+        </div>  
+        <div class="form-group cnyuaMv" xid="formGroup3" __cid="cnyuaMv"> 
+          <div class="col-sm-2 cnyuaMv" xid="col9" __cid="cnyuaMv">
+            <label class="control-label cnyuaMv" xid="controlLabel2" __cid="cnyuaMv">CPU阀值下限</label> 
+          </div>  
+          <div class="col-sm-4 cnyuaMv" xid="col10" __cid="cnyuaMv">
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cnyuaMv" xid="cpuMinThreadshold" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cnyuaMv">
+          </div>  
+          <div class="col-sm-2 cnyuaMv" xid="col11" __cid="cnyuaMv">
+            <label class="control-label cnyuaMv" xid="controlLabel3" __cid="cnyuaMv">CPU阀值上限</label>
+          </div>  
+          <div class="col-sm-4 cnyuaMv" xid="col12" __cid="cnyuaMv">
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cnyuaMv" xid="cpuMaxThreadshold" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cnyuaMv">
+          </div>
+        </div>  
+        <div class="form-group cnyuaMv" xid="formGroup4" __cid="cnyuaMv"> 
+          <div class="col-sm-2 cnyuaMv" xid="col13" __cid="cnyuaMv">
+            <label class="control-label cnyuaMv" xid="controlLabel4" __cid="cnyuaMv">Mem阀值下限</label>
+          </div>  
+          <div class="col-sm-4 cnyuaMv" xid="col14" __cid="cnyuaMv">
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cnyuaMv" xid="memMinThreadshold" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cnyuaMv"> 
+          </div>  
+          <div class="col-sm-2 cnyuaMv" xid="col15" __cid="cnyuaMv">
+            <label class="control-label cnyuaMv" xid="controlLabel5" __cid="cnyuaMv">Mem阀值上限</label>  
+            <form action="@justepContextPath@/Singleton/post" method="" xid="form3" __cid="cnyuaMv" class="cnyuaMv"></form>
+          </div>  
+          <div class="col-sm-4 cnyuaMv" xid="col16" __cid="cnyuaMv">
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cnyuaMv" xid="memMaxThreadshold" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cnyuaMv"> 
+          </div>
+        </div> 
+      </div>
+      <table component="$model/UI2/system/components/justep/list/list" class="x-list cnyuaMv" xid="list2" style="margin-left:20px;" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&#34;data&#34;:&#34;cd&#34;}" __cid="cnyuaMv"> 
+        <thead xid="thead1" __cid="cnyuaMv" class="cnyuaMv"> 
+          <td xid="td5" __cid="cnyuaMv" class="cnyuaMv"> 
+            <label class="control-label cnyuaMv" xid="controlLabel7" __cid="cnyuaMv">Docker服务</label>
+          </td>
+          <td xid="td6" __cid="cnyuaMv" class="cnyuaMv"> 
+            <label class="control-label cnyuaMv" xid="controlLabel8" __cid="cnyuaMv">现有Instance</label>
+          </td>
+          <td xid="td7" __cid="cnyuaMv" class="cnyuaMv"> 
+            <label class="control-label cnyuaMv" xid="controlLabel9" __cid="cnyuaMv">Instance下限</label>
+          </td>
+          <td xid="td8" __cid="cnyuaMv" class="cnyuaMv"> 
+            <label class="control-label cnyuaMv" xid="controlLabel10" __cid="cnyuaMv">Instance上限</label>
+          </td>
+        </thead>  
+        <tbody class="x-list-template hide cnyuaMv" xid="listTemplate1" __cid="cnyuaMv" data-bind="foreach:{data:$model.foreach_list2($element),afterRender:$model.foreach_afterRender_list2.bind($model,$element)}"> 
+          <tr xid="tr2" __cid="cnyuaMv" class="cnyuaMv"> 
+            <td xid="td1" __cid="cnyuaMv" class="cnyuaMv">
+              <input component="$model/UI2/system/components/justep/input/input" class="form-control cnyuaMv" xid="input3" data-bind="component:{ref:ref(&#34;modulesName&#34;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&#34;readonly&#34;:true}" __cid="cnyuaMv">
+            </td>  
+            <td xid="td2" __cid="cnyuaMv" class="cnyuaMv">
+              <input component="$model/UI2/system/components/justep/input/input" class="form-control cnyuaMv" xid="input4" data-bind="component:{ref:ref(&#34;quantity&#34;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&#34;readonly&#34;:true}" __cid="cnyuaMv">
+            </td>  
+            <td xid="td3" __cid="cnyuaMv" class="cnyuaMv">
+              <input component="$model/UI2/system/components/justep/input/input" class="form-control cnyuaMv" xid="input5" data-bind="component:{ref:ref(&#34;minQuantity&#34;),name:'$model/UI2/system/components/justep/input/input'}" __cid="cnyuaMv">
+            </td>  
+            <td xid="td4" __cid="cnyuaMv" class="cnyuaMv">
+              <input component="$model/UI2/system/components/justep/input/input" class="form-control cnyuaMv" xid="input6" data-bind="component:{ref:ref(&#34;maxQuantity&#34;),name:'$model/UI2/system/components/justep/input/input'}" __cid="cnyuaMv">
+            </td>
+          </tr> 
+        </tbody> 
+      </table> 
+    </div>  
+    <div class="x-panel-bottom cnyuaMv" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cnyuaMv"> 
+      <a class="btn btn-link btn-only-label x-dialog-button cnyuaMv" component="$model/UI2/system/components/justep/button/button" style="margin-left:30px;width:80px;" xid="cancelBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button2Click" data-config="{&#34;label&#34;:&#34;取    消&#34;}" __cid="cnyuaMv"> 
+        <i xid="i41" __cid="cnyuaMv" class="cnyuaMv"></i>  
+        <span xid="span41" __cid="cnyuaMv" class="cnyuaMv">取 消</span>
+      </a>
+      <a component="$model/UI2/system/components/justep/button/button" class="btn x-red x-dialog-button cnyuaMv" xid="OKBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:okBtnClick" data-config="{&#34;label&#34;:&#34;保存&#34;}" __cid="cnyuaMv"> 
+        <i xid="i1" __cid="cnyuaMv" class="cnyuaMv"></i>  
+        <span xid="span1" __cid="cnyuaMv" class="cnyuaMv">保存</span>
+      </a>
+    </div>
+    <style __cid="cnyuaMv" class="cnyuaMv">.x-panel.pc3uI3Ij-iosstatusbar >.x-panel-top {height: 48px;}.x-panel.pc3uI3Ij-iosstatusbar >.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pc3uI3Ij-iosstatusbar >.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pc3uI3Ij-iosstatusbar >.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pc3uI3Ij-iosstatusbar >.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pc3uI3Ij-iosstatusbar >.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pc3uI3Ij-iosstatusbar >.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pc3uI3Ij-iosstatusbar >.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pc3uI3Ij-iosstatusbar >.x-panel-content {top: 48px;}</style>
+  </div>  
+  <span component="$model/UI2/system/components/justep/windowReceiver/windowReceiver" xid="windowReceiver" data-bind="component:{name:'$model/UI2/system/components/justep/windowReceiver/windowReceiver'}" data-events="onReceive:windowReceiverReceive" __cid="cnyuaMv" class="cnyuaMv"></span>
+</div>

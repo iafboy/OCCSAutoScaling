@@ -1,7 +1,9 @@
 # Oracle Container Cloud Service的一种自动扩展方案
 ## 原理
-1.通过脚本定期扫描container状态，并上传至扩展控制服务器
-2.扩展控制服务器根据扩展规则，确定是否将docker container数量增加或者减少
+ 1.通过脚本定期扫描container状态，并上传至扩展控制服务器
+ 
+ 2.扩展控制服务器根据扩展规则，确定是否将docker container数量增加或者减少
+
 ## REST命令
 curl command
 curl -k "https://140.86.1.119/api/auth" -d '{"username":"admin","password":"Welcome1"}'
